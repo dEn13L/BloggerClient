@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">BloggerClient</string>
+
+  <string name="action_add_blog">Добавить блог</string>
+  <string name="action_update">Обновить</string>
+  <string name="action_share">Поделиться</string>
+  <string name="action_open_in_browser">Открыть в браузере</string>
+
+  <string name="error_occurred">Произошла ошибка</string>
+  <string name="error_occurred_retry">Произошла ошибка.\n Попробуйте еще раз</string>
+  <string name="empty">Нет никаких постов.\n Попробуйте позже</string>
+
+  <string name="enter_blog_url">Введите адрес блога</string>
+  <string name="example_com">http://example.com</string>
+  <string name="successfully_add_blog">Блог успешно добавлен</string>
+  <string name="error_add_blog">Проверьте адрес блога</string>
+</resources>

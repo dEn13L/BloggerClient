@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_small_margin"
+    card_view:cardCornerRadius="@dimen/post_card_corner_radius"
+    card_view:contentPadding="@dimen/activity_big_margin"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+    <TextView
+        android:id="@+id/textPostDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/activity_small_margin"
+        tools:text="24.11.2016"
+        style="@style/PostCardDateTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/textPostTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPostDate"
+        android:layout_marginBottom="@dimen/activity_big_margin"
+        tools:text="Заголовок поста"
+        style="@style/PostCardTitleTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/textPostContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPostTitle"
+        android:ellipsize="end"
+        android:lines="5"
+        tools:text="Содержимое поста\nСодержимое поста\nСодержимое поста\nСодержимое поста\nСодержимое поста\nСодержимое поста\nСодержимое поста\nСодержимое поста\nСодержимое поста\nСодержимое поста"
+        style="@style/PostCardContentTextStyle"
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_below="@id/textPostContent"
+        android:layout_marginBottom="@dimen/activity_small_margin"
+        android:layout_marginTop="@dimen/activity_small_margin"
+        style="@style/Divider"
+        />
+
+    <TextView
+        android:id="@+id/textPostCommentsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/divider"
+        android:drawableLeft="@drawable/ic_chat_bubble_black_18dp"
+        android:drawablePadding="@dimen/text_drawable_padding"
+        android:gravity="center_vertical"
+        android:text="1234"
+        />
+
+    <TextView
+        android:id="@+id/textPostAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/divider"
+        android:layout_marginRight="@dimen/activity_big_margin"
+        android:layout_toLeftOf="@id/textPostCommentsCount"
+        android:text="John Lenon"
+        style="@style/PostCardAuthorTextStyle"
+        />
+
+  </RelativeLayout>
+
+</android.support.v7.widget.CardView>

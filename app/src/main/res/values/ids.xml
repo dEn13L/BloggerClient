@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="viewContent" type="id" />
+  <item name="viewError" type="id" />
+  <item name="viewLoading" type="id" />
+</resources>

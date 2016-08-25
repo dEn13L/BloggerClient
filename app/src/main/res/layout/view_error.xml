@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewError"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:drawablePadding="@dimen/text_drawable_padding"
+    android:drawableTop="@drawable/ic_cloud_off_black_48dp"
+    android:gravity="center"
+    android:indeterminate="true"
+    android:padding="@dimen/activity_big_margin"
+    android:visibility="gone"
+    tools:text="@string/error_occurred_retry"
+    tools:visibility="visible"
+    style="@style/ErrorTextStyle"
+    />

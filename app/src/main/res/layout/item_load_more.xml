@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/activity_big_margin"
+    android:paddingBottom="@dimen/activity_big_margin"
+    >
+
+  <include
+      layout="@layout/view_loading"
+      android:visibility="visible"
+      />
+
+</RelativeLayout>

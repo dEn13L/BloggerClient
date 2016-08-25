@@ -1,0 +1,23 @@
+<resources>
+  <dimen name="activity_big_margin">16dp</dimen>
+  <dimen name="activity_small_margin">8dp</dimen>
+
+  <dimen name="appbar_height">120dp</dimen>
+  <dimen name="blog_name_margin_top">72dp</dimen>
+
+  <dimen name="text_drawable_padding">8dp</dimen>
+
+  <dimen name="post_card_corner_radius">4dp</dimen>
+
+  <!-- Text sizes -->
+
+  <dimen name="large_text_size">24sp</dimen>
+  <dimen name="normal_text_size">18sp</dimen>
+  <dimen name="small_text_size">14sp</dimen>
+
+  <dimen name="blog_name_text_size">24sp</dimen>
+  <dimen name="blog_description_text_size">16sp</dimen>
+  <dimen name="blog_info_text_size">12sp</dimen>
+
+
+</resources>

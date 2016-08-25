@@ -1,0 +1,88 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/primary_color</item>
+    <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    <item name="colorAccent">@color/accent_color</item>
+    <item name="android:textColorPrimary">@color/primary_text_color</item>
+    <item name="android:textColorSecondary">@color/secondary_text_color</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay"
+      parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  <style name="AppTheme.PopupOverlay"
+      parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="Divider">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">0.5dp</item>
+    <item name="android:background">@color/divider_color</item>
+  </style>
+
+  <style name="LargeTextStyle">
+    <item name="android:textSize">@dimen/large_text_size</item>
+  </style>
+
+  <style name="NormalTextStyle">
+    <item name="android:textSize">@dimen/normal_text_size</item>
+  </style>
+
+  <style name="SmallTextStyle">
+    <item name="android:textSize">@dimen/small_text_size</item>
+  </style>
+
+  <style name="LargeMessageTextStyle" parent="LargeTextStyle">
+    <item name="android:textColor">@color/secondary_text_color</item>
+  </style>
+
+  <style name="NormalMessageTextStyle" parent="NormalTextStyle">
+    <item name="android:textColor">@color/secondary_text_color</item>
+  </style>
+
+  <style name="BlogNameTextStyle">
+    <item name="android:textSize">@dimen/blog_name_text_size</item>
+    <item name="android:textColor">@color/text_color</item>
+  </style>
+
+  <style name="BlogInfoTextStyle" parent="SmallTextStyle">
+    <item name="android:textColor">@color/text_color</item>
+  </style>
+
+  <style name="PostCardTitleTextStyle" parent="NormalTextStyle">
+    <item name="android:textColor">@color/primary_text_color</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="PostCardContentTextStyle" parent="SmallTextStyle">
+    <item name="android:textColor">@color/primary_text_color</item>
+  </style>
+
+  <style name="PostCardAuthorTextStyle" parent="SmallTextStyle">
+    <item name="android:textColor">@color/secondary_text_color</item>
+  </style>
+
+  <style name="PostCardDateTextStyle" parent="SmallTextStyle">
+    <item name="android:textColor">@color/secondary_text_color</item>
+    <item name="android:textStyle">italic</item>
+  </style>
+
+  <style name="PostTitleTextStyle" parent="LargeTextStyle">
+    <item name="android:textColor">@color/primary_text_color</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="ErrorTextStyle" parent="NormalTextStyle">
+    <item name="android:textColor">@color/secondary_text_color</item>
+  </style>
+
+  <style name="EmptyTextStyle" parent="NormalTextStyle">
+    <item name="android:textColor">@color/secondary_text_color</item>
+  </style>
+
+</resources>
