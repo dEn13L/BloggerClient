@@ -81,7 +81,7 @@ public class BlogFragment
 
   @Override public void onResume() {
     super.onResume();
-    loadData(false);
+    loadData(true);
   }
 
   private void loadMore() {
